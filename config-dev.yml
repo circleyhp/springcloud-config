@@ -1,0 +1,26 @@
+server:
+  port: 3344
+spring:
+  application:
+    name: cloud-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/circleyhp/springcloud-config.git
+          search-paths:
+            - springcloud-config
+          force-pull: true
+          username: circleyhp
+          password: 199919YHp
+      label: matser
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:7003/eureka/
+logging:
+  level:
+    com.netflix.discovery: 'OFF'
+    org.springframework.cloud: 'DEBUG'
