@@ -9,5 +9,5 @@ eureka:
 spring:
    application:
     name: cloud-config-client
-test:
-  asd: wer
+ appele:
+    asd: asd
