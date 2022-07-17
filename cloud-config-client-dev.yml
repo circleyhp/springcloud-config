@@ -10,4 +10,4 @@ spring:
    application:
     name: cloud-config-client
 test:
-  asd: asd
+  asd: ttt
