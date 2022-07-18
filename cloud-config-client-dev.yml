@@ -8,4 +8,4 @@ spring:
    application:
     name: cloud-config-client
 appele:
-    asd: i love you
+    asd: i don't love you
